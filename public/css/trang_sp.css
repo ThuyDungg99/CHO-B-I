@@ -1,0 +1,153 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Times New Roman", Times, serif;
+}
+
+#menu {
+	opacity: 0.8;
+}
+
+#menu a {
+	color: white;
+}
+
+.menu_tren{
+	margin-top: 8px;
+}
+
+#menu_con a {
+	color: black !important;
+	font-size: 20px;
+	font-weight:bold;
+}
+.navbar-brand img{
+	height: 70px;
+	width: 100px;
+}
+
+#noidung {
+	width: 100%;
+	height: 100%;
+	padding: 10px 20px;
+}
+
+#content {
+	margin-top: 80px;
+}
+
+#content_trai img {
+	width: 98%;
+	height: 80% !important;
+	border: 1px solid #cccccc;
+	padding: 1px 1px;
+}
+.dang_nhap{
+		background: #E2472F;
+		color: #fff;
+		border-radius: 6px;
+	}
+
+
+#footer {
+	width: 100% !important;
+	height: 100%;
+	background: black;
+	padding: 20px 10px;
+	color: white;
+	margin-top: 5em;
+}
+
+#mathangtuongtu {
+	margin-top: 50px ;
+}
+
+#mathangtuongtu_body {
+	border: none !important;
+}
+
+#mathangtuongtu img {
+	width: 90%;
+	height: 15rem;
+	margin-left: 20px;
+}
+
+#foorer:hover {
+	cursor: pointer;
+}
+
+h2 {
+	margin-top: 50px !important;
+	text-align: center;
+}
+
+#mathangkhac {
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+
+#modal_giay img {
+	width: 90%;
+	height: 90% !important;
+}
+
+.modal-dialog {
+	max-width: 80% !important;
+	height: 100% !important;
+}
+
+#mathangtuongtu .card-footer {
+	background-color: white !important;
+	border: none;
+}
+
+.modal_giay_body1 #size, #soluong {
+	width: 50px !important;
+	
+}
+
+.modal_giay_body #size, #soluong {
+	width: 30px !important;
+	
+}
+.breadcrumb{
+	margin-top: 120px;
+}
+.thong_tin_sp{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #e9ecef;
+	padding-left: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+.tong_ttct{
+	margin-bottom: 70px;
+	font-size: 17px;
+}
+.tong_ttct ul li{
+	margin-bottom: 20px;
+}
+
+@media screen and (max-width: 992px ){
+	.content_trai{
+		width: 120%;
+		border: solid;
+	}
+	.anh_trai{
+		width: 112% !important;
+	}
+	.modal-dialog{
+		margin-left: 40px;
+	}
+	.menu_tren_1{
+		width: 30%;
+		text-align: center;
+	}
+	.form-control{
+		width: 70%;
+	}
+}

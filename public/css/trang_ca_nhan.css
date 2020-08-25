@@ -1,0 +1,178 @@
+body {
+		padding: 0;
+		margin: 0;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+	#menu {
+		opacity: 0.8;
+	}
+
+	#menu a {
+		color: white;
+	}
+
+	.menu_tren{
+		margin-top: 8px;
+	}
+
+	#menu_con a {
+		color: black !important;
+		font-size: 20px;
+		font-weight:bold;
+	}
+	.navbar-brand img{
+		height: 70px;
+		width: 100px;
+	}
+	.dang_nhap{
+		background: #E2472F;
+		color: #fff;
+		border-radius: 6px;
+	}
+	.tong{
+		height: 280px;
+		width: 100%;
+		border: solid;
+		margin-top: 90px;
+		overflow: hidden;
+		background: rgba(0,0,0,0.8);
+	}
+	.anh_dai_dien{
+		height: 220px;
+		width: 17%;
+		border:solid white;
+		position: absolute;
+		top: 180px;
+		left: 50px;
+		background-color: #ddd;
+	}
+	.anh_dai_dien i{
+		font-size: 140px;
+		padding-left: 40px;
+		padding-top: 17px; 
+	}
+	.anh_dai_dien p{
+		font-size: 18px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		text-align: center;
+		margin-top: 10px;
+		font-family: sans-serif;
+	}
+	.tt_ca_nhan{
+		position: absolute;
+		top: 140px;
+		left: 350px;
+		color: white;
+		font-family: sans-serif;
+		width: 950px;
+	}
+	.ten{
+		font-size: 25px;
+		font-weight: bold;
+		letter-spacing: 1px;
+		margin-bottom: 20px;
+	}
+	.ten_truong{
+		font-size: 20px;
+	}
+	.tong_1{
+		margin: 70px 50px 0 50px;
+		font-family: sans-serif;
+		padding-left: 100px;
+		line-height: 28px;
+		border-bottom: solid 2px #ddd;
+		margin-bottom: 20px;
+	}
+	.mo_ta{
+		font-size: 20px;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+	.mo_tact{
+		margin-left: 50px;
+		font-size: 18px;	
+	}
+	.tong_1 ul li{
+		margin-left: 70px;
+	}
+	.mo_ta2_chung{
+		position: absolute;
+		left: 670px;
+		top: 696px;
+	}
+	.td_trong{
+		height: 50px;
+		background-color: black;
+		line-height: 50px;
+		color: white;
+		font-weight: bold;
+		text-align: center;
+		font-size: 20px;
+		letter-spacing: 1px;
+		margin: 0 30px 20px 30px;
+	}
+	#footer {
+		width: 100% !important;
+		height: 100%;
+		background: black;
+		padding: 20px 10px;
+		color: white;
+		margin-top: 5em;
+	}
+	.chua_tttd{
+		height: 150px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 30px;
+		padding-top: 30px;
+	}
+	@media screen and (max-width: 992px ){
+		.menu_tren_1{
+		width: 30%;
+		text-align: center;
+		}
+		.form-control{
+		width: 70%;
+		}
+		.tong{
+			height: 630px;
+		}
+		.anh_dai_dien{
+			width: 220px;
+			margin-left: 30px;
+			margin-top: -40px;
+		}
+		.tt_ca_nhan .ten{
+			padding-left: 35px;
+		}
+		.ten_truong{
+			text-align: center;
+		}
+		.ten_truong1{
+			padding-left: 160px;
+		}
+		.tong_ttcn{
+			padding-left: 50px;
+		}
+		.tt_ca_nhan{
+			width: 100%;
+			left: 0px;
+			top: 400px;
+		}
+		.tong_1{
+			padding-left: 0px;
+			height: 800px;
+		}
+		.mo_tact{
+			margin-left: 20px;
+		}
+		.tong_1 ul li{
+			margin-left: 20px;
+		}
+		.mo_ta2_chung{
+			left: 53px;
+			top: 1400px;
+		}
+	}
